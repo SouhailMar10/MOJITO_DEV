@@ -1,0 +1,78 @@
+.sidebar {
+    float: left;
+    background: #0439D9;
+    border-right: 100px solid #0439D9;
+    color: #DBDBDB;
+    min-height: 100vh;
+    width: 20%;
+    position: fixed;
+    font-weight: 500;
+}
+
+.sidebar a:hover {
+    cursor: pointer;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #ACC6EB;
+}
+
+.nav_link:hover {
+    color: #FFF;
+}
+
+.sidebar ul li {
+    line-height: 28px;
+    list-style-type: none;
+}
+
+.sidebar ul li:hover {
+    color: #FFF;
+}
+
+.text_icon_padding {
+    padding-left: 4px;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -10%;
+}
+
+.logo_img {
+    width: 50px;
+    display: inline-block;
+    margin-top: -10px;
+}
+
+.selected {
+    color: #FFF;
+}
+
+.nav_wrapper {
+    width: 60%;
+    margin: 0 auto;
+    margin-left: 14%;
+}
+
+.main_nav {
+    margin-top: 30px;
+}
+
+.account_info {
+    margin-top: 30px;
+    margin-left: 14%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    margin-top: 20px;
+    margin-left: 14%;
+}
+
+.footer_icon:hover {
+    color: #FFF;
+}

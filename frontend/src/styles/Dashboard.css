@@ -1,0 +1,69 @@
+.dashboard {
+    font-family: avenir, helvetica, sans-serif;
+    background-color: #EEE;
+    z-index: 11;
+}
+
+.overview_bar h2 {
+    margin: 20px;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.overview_bar a {
+    float: right;
+    display: inline;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.widget_panel {
+    min-height: 260px;
+    border-radius: 20px;
+    border: 2px solid #E9E9E9;
+    background-color: #FFF;
+    padding: 20px;
+    margin: 0 1em;
+}
+
+.widget_header {
+    text-decoration: none;
+}
+
+.widget_header h3 {
+    color: #4B4B4B;
+    font-size: 22px;
+}
+
+.top_widget_panel {
+    margin-top: 0;
+}
+
+.your_budget {
+    min-height: 445px;
+    color: black;
+}
+
+.transaction_history {
+    min-height: 406px;
+}
+
+.amount_remaining {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.amount_remaining::before {
+    content: "Remaining: $";
+}
+
+.budget_left {
+    width: 50%;
+    float: left;
+}
+
+.budget_right {
+    width: 50%;
+    float: left;
+}
